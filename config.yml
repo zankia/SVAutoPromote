@@ -1,0 +1,7 @@
+groups:
+    - from: group0
+      to: group1
+      time: 60
+    - from: group1
+      to: group2
+      time: 120
