@@ -1,6 +1,6 @@
 name: SVAutoPromote
 main: fr.zankia.SVAutoPromote.SVAP
-version: 0.5
+version: 1.0
 description: Automagically promote player with a certain amount of time
 author: zankia
 depend: [Vault]

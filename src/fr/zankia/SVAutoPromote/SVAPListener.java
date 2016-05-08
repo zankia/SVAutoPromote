@@ -32,8 +32,8 @@ public class SVAPListener implements Listener {
 			if (current.equalsIgnoreCase(from)) {
 				if ((System.currentTimeMillis() - p.getFirstPlayed()) / 86400000L
 						> ((Integer)group.get("time")).intValue()) {
-					VaultLink.perm.playerAddGroup(p, (String)group.get("to"));
-					VaultLink.perm.playerRemoveGroup(p, from);
+					VaultLink.perm.playerAddGroup(null, p, (String)group.get("to"));
+					VaultLink.perm.playerRemoveGroup(null, p, from);
 					
 					this.plugin.logtoFile("[" + new SimpleDateFormat("dd/MM/yy HH:mm:ss").format(
 							new Date()) + "] " + e.getPlayer().getName() + ": " + from + " -> " + 
