@@ -1,4 +1,4 @@
-package fr.zankia.SVAutoPromote;
+package fr.zankia.svautopromote;
 
 import java.io.File;
 import java.io.FileWriter;

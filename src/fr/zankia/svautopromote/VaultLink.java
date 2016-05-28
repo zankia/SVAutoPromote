@@ -1,4 +1,4 @@
-package fr.zankia.SVAutoPromote;
+package fr.zankia.svautopromote;
 
 import net.milkbowl.vault.permission.Permission;
 import org.bukkit.plugin.RegisteredServiceProvider;

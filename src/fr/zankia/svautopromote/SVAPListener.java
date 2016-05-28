@@ -1,4 +1,4 @@
-package fr.zankia.SVAutoPromote;
+package fr.zankia.svautopromote;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
